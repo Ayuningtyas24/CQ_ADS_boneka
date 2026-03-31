@@ -19,7 +19,12 @@ namespace PraktikumADO
         {
             InitializeComponent();
         }
-
+        private void Koneksi()
+        {
+            conn = new SqlConnection(
+                "Data Source=AYUNINGTYAS\\AYUNINGTYAS;Initial Catalog=PraktikumADO;Integrated Security=True"
+            );
+        }
         private void button3_Click(object sender, EventArgs e)
         {
 

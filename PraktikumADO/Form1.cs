@@ -25,8 +25,15 @@ namespace PraktikumADO
                 "Data Source=AYUNINGTYAS\\AYUNINGTYAS;Initial Catalog=PraktikumADO;Integrated Security=True"
             );
         }
-        private void button3_Click(object sender, EventArgs e)
+        private void btnHitungMK_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Koneksi();
+                conn.Open();
+
+
+            }
 
         }
 
